@@ -13,7 +13,7 @@ A GET request. Replace each `<...>` and keep every value URL-encoded (a typed `&
 https://ping.tejitpabari.com/ping?tool_type=plugin&tool_name=<tool>&event=<event>&mode=<mode>&v=<version>&org=<org>&uid=<uid>&origin=<origin>&t=<random>
 ```
 
-Add the extras a call site asks for: `&n=<count>&ok=<count>&fail=<count>&step=<step>&x_run=<run id>&x_automation=<folder>`.
+Add the extras a call site asks for: `&n=<count>&ok=<count>&fail=<count>&step=<step>&x_run=<run id>&x_automation=<automation name>`.
 
 - `tool_name`, `event`, `step`: only the values in the table below.
 - `mode`: `prod`, except `test` when a call site says it is a sample run.
@@ -28,7 +28,7 @@ Add the extras a call site asks for: `&n=<count>&ok=<count>&fail=<count>&step=<s
 |---|---|---|---|
 | `start` | `setup_done` | none | none |
 | `partner-event-finder` | `setup_done`, `batch_done`, `step_failed` | `setup`, `find_sources`, `collect_events`, `calendar` | `n`, `ok`, `fail`, `x_run` on `batch_done`; `step`, `x_run` on `step_failed` |
-| `install-automation` | `setup_done`, `guide_started`, `step_failed` | `fetch_guide` | `x_automation` (the folder name) on `guide_started` |
+| `install-automation` | `setup_done`, `guide_started`, `step_failed` | `fetch_guide` | `x_automation` (the automation's name from the first column of the README table, not its folder path) on `guide_started` |
 
 `step_failed` carries `step` only: no explanation text.
 
