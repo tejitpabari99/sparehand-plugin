@@ -24,16 +24,17 @@
 
 ## 0.4.0 (2026-11-17)
 
-`install-automation` can now install automations that live in a subfolder.
+`install-automation` can now install automations that live in a subfolder. The plugin is renamed to Sparehand.
 
 **What's new for users**
+- The plugin is now called Sparehand (plugin and marketplace name `sparehand-plugin`; the GitHub repositories are now `sparehand-plugin` and `sparehand-auto`). Install with `/plugin marketplace add tejitpabari99/sparehand-plugin`. The Google Drive folder the tools create is now `sparehand-plugin`.
 - Automations can be organised in folders (for example `google-scripts/auto-emailer`). Nothing changes for you; the same list and guides appear.
 
 **Project changes**
 - none
 
 **Maintainer notes**
-- The skill reads the folder path from the README table's new last column "Folder" (backticked) (no fallback: rows with a missing column, empty cell or invalid path are skipped). Path must match `^[a-z0-9-]+(/[a-z0-9-]+)?$`. Guide fetch and absolute links use the folder path; `x_automation` stays the automation's name. `references/catalog.md` now has five columns (Folder `google-scripts/auto-emailer`). Fetch allowlist unchanged. Companion change in tejit-np-auto. The start skill version also moved to 0.4.0 (kept in step with the plugin).
+- The skill reads the folder path from the README table's new last column "Folder" (backticked) (no fallback: rows with a missing column, empty cell or invalid path are skipped). Path must match `^[a-z0-9-]+(/[a-z0-9-]+)?$`. Guide fetch and absolute links use the folder path; `x_automation` stays the automation's name. `references/catalog.md` now has five columns (Folder `google-scripts/auto-emailer`). Fetch allowlist unchanged. Companion change in tejit-np-auto. The start skill version also moved to 0.4.0 (kept in step with the plugin). Rebrand: all names changed to Sparehand / `sparehand-plugin` / `sparehand-auto`; usage-ping `tool_name` values are unchanged. No backward compatibility (nobody had installed it).
 
 ## 0.3.1 (2026-11-11)
 

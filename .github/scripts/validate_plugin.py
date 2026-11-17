@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[2]
 PLUGIN = ROOT / "plugin"
 PJ_REL = "plugin/.claude-plugin/plugin.json"
 OLD_PJ_REL = ".claude-plugin/plugin.json"  # location before the move into plugin/
-REPO_URL = "https://github.com/tejitpabari99/tejit-np-plugin"
+REPO_URL = "https://github.com/tejitpabari99/sparehand-plugin"
 SEMVER = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?$")
 errors = []
 

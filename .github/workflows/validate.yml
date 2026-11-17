@@ -37,7 +37,7 @@ jobs:
           python3 scripts/build_zip.py
           python3 - <<'PY'
           import glob, sys, zipfile
-          path = glob.glob("dist/tejit-np-plugin-*.zip")[0]
+          path = glob.glob("dist/sparehand-plugin-*.zip")[0]
           names = zipfile.ZipFile(path).namelist()
           for need in ("skills/start/SKILL.md", ".claude-plugin/plugin.json", "gemini-extension.json"):
               if need not in names:

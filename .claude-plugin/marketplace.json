@@ -1,10 +1,10 @@
 {
-  "name": "tejit-np-plugin",
-  "description": "Tejit's Non Profit Tools: small, guided helpers for nonprofits",
+  "name": "sparehand-plugin",
+  "description": "Sparehand: small, guided helpers for nonprofits",
   "owner": { "name": "Tejit Pabari", "url": "https://github.com/tejitpabari99" },
   "plugins": [
     {
-      "name": "tejit-np-plugin",
+      "name": "sparehand-plugin",
       "source": "./plugin",
       "description": "Tools for nonprofits: guided helpers that take repetitive work off your team's plate. Includes the Partner Event Finder.",
       "category": "productivity",

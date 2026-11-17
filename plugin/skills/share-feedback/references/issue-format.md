@@ -40,17 +40,17 @@ Never include: names of organizations, partners, people or projects; emails; lin
 No user data is shared at any point. Before showing the draft, check every field, including their own words, and replace anything on the Never include list above with a general description (for example "a partner organization"). Tell them you replaced it, and what you replaced it with in general terms. Repeat this check on any change they make, and show the draft again before anything is sent.
 
 ## Creating it directly
-When a GitHub tool or signed-in `gh` command is available, create the report on `tejitpabari99/tejit-np-plugin` with the title and body above and the label `feedback`. Show the link it returns.
+When a GitHub tool or signed-in `gh` command is available, create the report on `tejitpabari99/sparehand-plugin` with the title and body above and the label `feedback`. Show the link it returns.
 
 ## Pre-filled link (no tool available)
 ```
-https://github.com/tejitpabari99/tejit-np-plugin/issues/new?template=feedback.yml&title=<urlencoded>&feedback_type=<urlencoded>&tool_goal=<urlencoded>&details=<urlencoded>&importance=<urlencoded>&example=<urlencoded>&context=<urlencoded>&version=<urlencoded>
+https://github.com/tejitpabari99/sparehand-plugin/issues/new?template=feedback.yml&title=<urlencoded>&feedback_type=<urlencoded>&tool_goal=<urlencoded>&details=<urlencoded>&importance=<urlencoded>&example=<urlencoded>&context=<urlencoded>&version=<urlencoded>
 ```
 - Percent-encode every value (spaces as `%20`, new lines as `%0A`).
 - `title` is the full title, including `[Feedback] `.
 - Always include `feedback_type`, with exactly one of: something broke | could be better | new idea. (The field id is `feedback_type` because `type` clashes with GitHub's own issue type and is not filled in.)
 - Do NOT add a `labels=` parameter. The form applies the label itself.
-- If the whole link would be longer than about 6000 characters, shorten the example text. If it is still too long, tell them to open `https://github.com/tejitpabari99/tejit-np-plugin/issues/new?template=feedback.yml` (the plain form) and paste in the answers you show them.
+- If the whole link would be longer than about 6000 characters, shorten the example text. If it is still too long, tell them to open `https://github.com/tejitpabari99/sparehand-plugin/issues/new?template=feedback.yml` (the plain form) and paste in the answers you show them.
 - Tell them to review the form and click **Submit**. Remind them it will be public.
 
 ## Email route

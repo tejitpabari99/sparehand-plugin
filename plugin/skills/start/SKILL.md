@@ -1,6 +1,6 @@
 ---
 name: start
-description: Front door of Tejit's Non Profit Tools, a plugin for nonprofits. Use when someone says "non profit tools", "Tejit's tools", "get started", "hello" or "help me get going", or opens the plugin without naming a skill. Introduces the plugin, shows what is available and hands off to the one the person picks. Questions like "what can you do" or "list all tools" later on belong to install-automation.
+description: Front door of Sparehand, a plugin for nonprofits. Use when someone says "non profit tools", "Sparehand", "get started", "hello" or "help me get going", or opens the plugin without naming a skill. Introduces the plugin, shows what is available and hands off to the one the person picks. Questions like "what can you do" or "list all tools" later on belong to install-automation.
 metadata:
   version: 0.4.0
   short_description: Introduces the toolkit and helps you pick a skill

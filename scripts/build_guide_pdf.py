@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "nonprofit-guide.pdf"
 IMG = ROOT / "docs" / "guide-images"
 ICON = ROOT / "plugin" / ".claude-plugin" / "icon.png"
-REPO = "https://github.com/tejitpabari99/tejit-np-plugin"
+REPO = "https://github.com/tejitpabari99/sparehand-plugin"
 INSTALL = REPO + "/blob/main/docs/install.md"
 ISSUES = REPO + "/issues"
 
@@ -60,13 +60,13 @@ def build():
     doc = SimpleDocTemplate(
         str(OUT), pagesize=letter, leftMargin=0.85 * inch, rightMargin=0.85 * inch,
         topMargin=0.7 * inch, bottomMargin=0.7 * inch,
-        title="Tejit's Non Profit Tools: a quick guide for your team", author="",
-        subject="How to add and use Tejit's Non Profit Tools",
+        title="Sparehand: a quick guide for your team", author="",
+        subject="How to add and use Sparehand",
     )
     s = []
     icon = RLImage(str(ICON), width=0.9 * inch, height=0.9 * inch)
     icon.hAlign = "CENTER"
-    s += [icon, Spacer(1, 6), Paragraph("Tejit's Non Profit Tools", h1),
+    s += [icon, Spacer(1, 6), Paragraph("Sparehand", h1),
           Paragraph("A quick guide for your team", sub)]
     s += [Paragraph("What this is", h2), Paragraph(
         "Free, open-source helpers for AI assistants that take repetitive work off a nonprofit team's plate. "
@@ -80,10 +80,10 @@ def build():
     s += [t, PageBreak()]
     s.append(step_block(3, "Click <b>Plugins</b>, then <b>Add</b>, then <b>Add marketplace</b>.", "step-3.png"))
     s.append(step_block(4, "Click <b>Add from a repository</b>.", "step-4.png"))
-    s.append(step_block(5, "Type <b>tejitpabari99/tejit-np-plugin</b>, keep <b>Sync automatically</b> on, then click <b>Sync</b>.", "step-5.png", max_h=2.6 * inch))
+    s.append(step_block(5, "Type <b>tejitpabari99/sparehand-plugin</b>, keep <b>Sync automatically</b> on, then click <b>Sync</b>.", "step-5.png", max_h=2.6 * inch))
     s.append(KeepTogether([
-        step_block(6, "If you see an <b>Install</b> button for Tejit's Non Profit Tools, click it."),
-        step_block(7, "Start a new chat and say <b>\"Tejit's non profit tools\"</b>."),
+        step_block(6, "If you see an <b>Install</b> button for Sparehand, click it."),
+        step_block(7, "Start a new chat and say <b>\"Sparehand\"</b>."),
     ]))
     s.append(Paragraph(
         "Please add it this way, rather than copying files, so you get updates and fixes automatically.", body))

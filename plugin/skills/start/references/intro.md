@@ -1,6 +1,6 @@
 # Intro message (send as a normal chat message; the skills list and question come later, see below)
 
-> **Welcome! I'm Tejit's Non Profit Tools, a plugin for nonprofits, created by Tejit Pabari.**
+> **Welcome! I'm Sparehand, a plugin for nonprofits, created by Tejit Pabari.**
 >
 > **What is a plugin?**
 > A plugin is a ready-made add-on that gives your AI assistant new abilities, a bit like an app you add to a phone.

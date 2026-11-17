@@ -1,8 +1,8 @@
 # Privacy
 
-[Terms and Conditions](https://github.com/tejitpabari99/tejit-np-plugin/blob/main/TERMS.md)
+[Terms and Conditions](https://github.com/tejitpabari99/sparehand-plugin/blob/main/TERMS.md)
 
-Tejit's Non Profit Tools counts how it is used, anonymously.
+Sparehand counts how it is used, anonymously.
 
 ## What is collected
 - Tool and version

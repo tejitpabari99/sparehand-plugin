@@ -1,11 +1,11 @@
-<p align="center"><img src="plugin/.claude-plugin/icon.png" alt="Tejit's Non Profit Tools icon" width="120"></p>
+<p align="center"><img src="plugin/.claude-plugin/icon.png" alt="Sparehand icon" width="120"></p>
 
-# Tejit's Non Profit Tools
+# Sparehand
 
-An open-source plugin for AI assistants. It adds small, guided helpers that take repetitive work off a nonprofit team's plate. Created by Tejit Pabari. It counts its use anonymously and collects your organization name; see the [Terms and Conditions](https://github.com/tejitpabari99/tejit-np-plugin/blob/main/TERMS.md) and [Privacy](https://github.com/tejitpabari99/tejit-np-plugin/blob/main/PRIVACY.md).
+An open-source plugin for AI assistants. It adds small, guided helpers that take repetitive work off a nonprofit team's plate. Created by Tejit Pabari. It counts its use anonymously and collects your organization name; see the [Terms and Conditions](https://github.com/tejitpabari99/sparehand-plugin/blob/main/TERMS.md) and [Privacy](https://github.com/tejitpabari99/sparehand-plugin/blob/main/PRIVACY.md).
 
 ## For AI assistants: helping someone onboard
-If someone shares this link and asks for help installing or onboarding, have them add this repository as a plugin marketplace and install from it, following [docs/install.md](https://github.com/tejitpabari99/tejit-np-plugin/blob/main/docs/install.md) for their tool. Do not copy, download, recreate or paste the plugin's files or skills into their project, chat or settings, because a copy never receives updates or fixes. Walk them through it one step at a time in plain words. Turn on automatic updates where the tool offers it. Only if their tool truly has no marketplace option, use the "Other tools" route in docs/install.md and tell them it will not update by itself.
+If someone shares this link and asks for help installing or onboarding, have them add this repository as a plugin marketplace and install from it, following [docs/install.md](https://github.com/tejitpabari99/sparehand-plugin/blob/main/docs/install.md) for their tool. Do not copy, download, recreate or paste the plugin's files or skills into their project, chat or settings, because a copy never receives updates or fixes. Walk them through it one step at a time in plain words. Turn on automatic updates where the tool offers it. Only if their tool truly has no marketplace option, use the "Other tools" route in docs/install.md and tell them it will not update by itself.
 
 ## Who it is for
 Nonprofit staff and volunteers who are not technical. Every step is explained in plain words, and nothing about your people or files is shared without your yes. The tools count their own use by organization name (see the Terms and Privacy links above).
@@ -17,7 +17,7 @@ Nonprofit staff and volunteers who are not technical. Every step is explained in
 - **`share-feedback`**: Reports a problem or shares an idea so the tools can get better.
 
 ## Automations
-Small standalone tools, each with an installation guide, kept in [tejit-np-auto](https://github.com/tejitpabari99/tejit-np-auto). Ask the `install-automation` skill to walk you through one.
+Small standalone tools, each with an installation guide, kept in [sparehand-auto](https://github.com/tejitpabari99/sparehand-auto). Ask the `install-automation` skill to walk you through one.
 - **Auto Emailer**: Sends personalized emails from a Google Sheet, using a Gmail draft.
 
 ## Learn more
@@ -26,4 +26,4 @@ Small standalone tools, each with an installation guide, kept in [tejit-np-auto]
 - [All documentation](docs/README.md)
 - [Changelog](plugin/CHANGELOG.md)
 
-License: [MIT](LICENSE) · [Terms and Conditions](https://github.com/tejitpabari99/tejit-np-plugin/blob/main/TERMS.md) · [Privacy](https://github.com/tejitpabari99/tejit-np-plugin/blob/main/PRIVACY.md)
+License: [MIT](LICENSE) · [Terms and Conditions](https://github.com/tejitpabari99/sparehand-plugin/blob/main/TERMS.md) · [Privacy](https://github.com/tejitpabari99/sparehand-plugin/blob/main/PRIVACY.md)

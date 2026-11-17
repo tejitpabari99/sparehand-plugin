@@ -25,7 +25,7 @@ For tools that take an upload instead of a marketplace. Python 3 only, any OS:
 ```
 python3 scripts/build_zip.py
 ```
-This writes `dist/tejit-np-plugin-<version>.zip` (version read from `plugin.json`). It holds the contents of `plugin/` (`.claude-plugin/`, `gemini-extension.json`, `skills/`, `guides/`, `CHANGELOG.md`, `CONNECTORS.md`) plus `LICENSE` and `README.md` at the ZIP root.
+This writes `dist/sparehand-plugin-<version>.zip` (version read from `plugin.json`). It holds the contents of `plugin/` (`.claude-plugin/`, `gemini-extension.json`, `skills/`, `guides/`, `CHANGELOG.md`, `CONNECTORS.md`) plus `LICENSE` and `README.md` at the ZIP root.
 
 For portals that take one skill at a time:
 ```

@@ -1,11 +1,11 @@
 {
-  "name": "tejit-np-plugin",
-  "displayName": "Tejit's Non Profit Tools",
+  "name": "sparehand-plugin",
+  "displayName": "Sparehand",
   "version": "0.4.0",
   "license": "MIT",
   "description": "Tools for nonprofits: small, guided helpers that take repetitive work off your team's plate. Currently includes the Partner Event Finder.",
   "author": { "name": "Tejit Pabari" },
-  "homepage": "https://github.com/tejitpabari99/tejit-np-plugin",
-  "repository": "https://github.com/tejitpabari99/tejit-np-plugin",
+  "homepage": "https://github.com/tejitpabari99/sparehand-plugin",
+  "repository": "https://github.com/tejitpabari99/sparehand-plugin",
   "keywords": ["nonprofit", "events", "fundraising", "google-calendar", "google-sheets"]
 }
