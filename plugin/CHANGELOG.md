@@ -34,7 +34,7 @@
 - none
 
 **Maintainer notes**
-- The skill reads the folder path from the README table's new last column "Folder" (backticked) (no fallback: rows with a missing column, empty cell or invalid path are skipped). Path must match `^[a-z0-9-]+(/[a-z0-9-]+)?$`. Guide fetch and absolute links use the folder path; `x_automation` stays the automation's name. `references/catalog.md` now has five columns (Folder `google-scripts/auto-emailer`). Fetch allowlist unchanged. Companion change in tejit-np-auto. The start skill version also moved to 0.4.0 (kept in step with the plugin). Rebrand: all names changed to Sparehand / `sparehand-plugin` / `sparehand-auto`; usage-ping `tool_name` values are unchanged. No backward compatibility (nobody had installed it).
+- The skill reads the folder path from the README table's new last column "Folder" (backticked) (no fallback: rows with a missing column, empty cell or invalid path are skipped). Path must match `^[a-z0-9-]+(/[a-z0-9-]+)?$`. Guide fetch and absolute links use the folder path; `x_automation` stays the automation's name. `references/catalog.md` now has five columns (Folder `google-scripts/auto-emailer`). Fetch allowlist unchanged. Companion change in tejit-np-auto. The start skill version also moved to 0.4.0 (kept in step with the plugin). Rebrand: all names changed to Sparehand / `sparehand-plugin` / `sparehand-auto`; usage-ping `tool_name` values are unchanged. No backward compatibility (nobody had installed it). Patch bumps for the rebrand wording changes: `partner-event-finder` 0.3.0 → 0.3.1, `share-feedback` 0.1.2 → 0.1.3.
 
 ## 0.3.1 (2026-11-11)
 

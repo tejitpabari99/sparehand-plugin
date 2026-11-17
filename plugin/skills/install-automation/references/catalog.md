@@ -4,4 +4,4 @@ Source: https://github.com/tejitpabari99/sparehand-auto . Used only when the liv
 
 | Automation | What it does | Guide | Open the tool | Folder |
 |---|---|---|---|---|
-| `auto-emailer` Auto Emailer (NGO Mailer) | Sends personalized emails from a Google Sheet, using a Gmail draft with {{Column Name}} placeholders. | [Installation guide](https://github.com/tejitpabari99/sparehand-auto/blob/main/google-scripts/auto-emailer/INSTALLATION_GUIDE.md) | [Open](https://go.tejitpabari.com/sparehand-auto-emailer) | `google-scripts/auto-emailer` |
+| `auto-emailer` Auto Emailer (NGO Mailer) | Sends personalized emails from a Google Sheet, using a Gmail draft with {{Column Name}} placeholders. | [Installation guide](https://github.com/tejitpabari99/sparehand-auto/blob/main/google-scripts/auto-emailer/INSTALLATION_GUIDE.md) | [Open](https://go.tejitpabari.com/tejit-np-auto-emailer) | `google-scripts/auto-emailer` |
