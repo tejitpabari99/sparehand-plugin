@@ -33,7 +33,7 @@
 - none
 
 **Maintainer notes**
-- The skill reads the folder path from the README table's new last column "Folder" (backticked), falling back to the first column's name when the column is missing or empty. Path must match `^[a-z0-9-]+(/[a-z0-9-]+)?$`. Guide fetch and absolute links use the folder path; `x_automation` stays the automation's name. `references/catalog.md` now has five columns (Folder `google-scripts/auto-emailer`). Fetch allowlist unchanged. Companion change in tejit-np-auto.
+- The skill reads the folder path from the README table's new last column "Folder" (backticked) (no fallback: rows with a missing column, empty cell or invalid path are skipped). Path must match `^[a-z0-9-]+(/[a-z0-9-]+)?$`. Guide fetch and absolute links use the folder path; `x_automation` stays the automation's name. `references/catalog.md` now has five columns (Folder `google-scripts/auto-emailer`). Fetch allowlist unchanged. Companion change in tejit-np-auto. The start skill version also moved to 0.4.0 (kept in step with the plugin).
 
 ## 0.3.1 (2026-11-11)
 
