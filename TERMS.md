@@ -1,6 +1,6 @@
 # Terms and Conditions
 
-Tejit's Non Profit Tools is made by Tejit Pabari, a volunteer, and is free to use.
+Sparehand is made by Tejit Pabari, a volunteer, and is free to use.
 
 - It is open source under the [MIT License](LICENSE).
 - It is provided as is, with no warranty of any kind. Check anything important before you rely on it.

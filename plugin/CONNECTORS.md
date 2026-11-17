@@ -10,7 +10,7 @@ Each skill only checks and asks for the connections it needs.
 | `share-feedback` | no | no | no | no | optional | optional |
 
 **What they are used for (Partner Event Finder)**
-- **Google Drive:** the `tejit-np-plugin` folder, small settings notes, finding your files.
+- **Google Drive:** the `sparehand-plugin` folder, small settings notes, finding your files.
 - **Google Sheets:** reading your partner list (read only) and writing the new sheet this plugin creates.
 - **Google Calendar:** the separate calendar where events are kept.
 - **Web search and page reading:** reading partner websites. Every skill except `share-feedback` also uses it to add one anonymous usage count; if it is not available, the skill simply carries on.

@@ -22,6 +22,19 @@
 
 ---
 
+## 0.4.1 (2026-11-17)
+
+The plugin is renamed to Sparehand.
+
+**What's new for users**
+- The plugin is now called Sparehand (plugin and marketplace name `sparehand-plugin`; the GitHub repositories are now `sparehand-plugin` and `sparehand-auto`). Install with `/plugin marketplace add tejitpabari99/sparehand-plugin`. The Google Drive folder the tools create is now `sparehand-plugin`.
+
+**Project changes**
+- none
+
+**Maintainer notes**
+- Rebrand: all names changed to Sparehand / `sparehand-plugin` / `sparehand-auto`; usage-ping `tool_name` values are unchanged. No backward compatibility (nobody had installed it). The `install-automation` and `start` skills moved to 0.4.1 (kept in step with the plugin). Patch bumps for the rebrand wording changes: `partner-event-finder` 0.3.0 → 0.3.1, `share-feedback` 0.1.2 → 0.1.3.
+
 ## 0.4.0 (2026-11-17)
 
 `install-automation` can now install automations that live in a subfolder.

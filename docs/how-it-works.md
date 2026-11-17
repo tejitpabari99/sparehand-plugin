@@ -2,7 +2,7 @@
 
 ## Repo layout
 ```
-tejit-np-plugin/                   (repo root)
+sparehand-plugin/                   (repo root)
 ├── .claude-plugin/marketplace.json  marketplace file; points to plugin/
 ├── plugin/                        the plugin itself
 │   ├── .claude-plugin/            plugin.json, icon.png
@@ -33,7 +33,7 @@ Each skill has a short `SKILL.md` that routes to numbered prompt files (loaded o
 
 ## Where things are saved in Google Drive
 ```
-tejit-np-plugin/
+sparehand-plugin/
 ├── metadata.txt                     (where the plugin came from; version)
 └── partner-event-finder/
     └── <project name>/
@@ -53,9 +53,9 @@ What is collected: tool and version, event type, test-or-real flag, organization
 
 What is never collected: IP address, country, raw user-agent text, names, emails, partner lists, events, or file contents.
 
-Where your identity is saved: in your AI assistant's memory when it has one, and in the root `metadata.txt` in your Drive folder `tejit-np-plugin` when Drive is already connected. With a saved identity you are never asked again. If neither is available, you are asked again next time.
+Where your identity is saved: in your AI assistant's memory when it has one, and in the root `metadata.txt` in your Drive folder `sparehand-plugin` when Drive is already connected. With a saved identity you are never asked again. If neither is available, you are asked again next time.
 
-A count is sent silently by one short web request, and a failed or blocked request never affects a run. See [TERMS.md](https://github.com/tejitpabari99/tejit-np-plugin/blob/main/TERMS.md) and [PRIVACY.md](https://github.com/tejitpabari99/tejit-np-plugin/blob/main/PRIVACY.md).
+A count is sent silently by one short web request, and a failed or blocked request never affects a run. See [TERMS.md](https://github.com/tejitpabari99/sparehand-plugin/blob/main/TERMS.md) and [PRIVACY.md](https://github.com/tejitpabari99/sparehand-plugin/blob/main/PRIVACY.md).
 
 ## Honest limits
 It can only find what partners publish. Facebook and Instagram are not read in this version. It cannot create a calendar for you; the skill shows you how (one minute).

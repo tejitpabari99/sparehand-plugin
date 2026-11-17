@@ -1,8 +1,8 @@
 ---
 name: share-feedback
-description: Helps someone report a problem, suggest an improvement or request a new feature for Tejit's Non Profit Tools, and files it for the maintainer once they approve. Use when someone says "suggest an improvement", "report a problem", "something went wrong", "share feedback", "request a feature", "this didn't work" or "I have an idea for the tools".
+description: Helps someone report a problem, suggest an improvement or request a new feature for Sparehand, and files it for the maintainer once they approve. Use when someone says "suggest an improvement", "report a problem", "something went wrong", "share feedback", "request a feature", "this didn't work" or "I have an idea for the tools".
 metadata:
-  version: 0.1.2
+  version: 0.1.3
   short_description: Reports a problem or shares an idea so the tools can get better
   connectors: GitHub (optional), Gmail (optional)
 ---
@@ -29,7 +29,7 @@ Every label such as **Why:**, **Next:** is **bold** and starts on its own new li
 4. **Work out the route** before showing the draft. If a GitHub tool or a signed-in `gh` command is available, the route is GitHub. Otherwise ask if they have a GitHub account. Yes: the route is a GitHub link. No: ask which they prefer, "create a free GitHub account" (follow `../start/references/github-account-guide.md`, then use the GitHub link) or "send it by email instead".
 5. **Privacy check, then show the full draft.** No user data is shared at any point. Before showing the draft, do the Privacy check in `references/issue-format.md` on every field, including their own words. Repeat the check on any change they make, and show the draft again, before anything is sent. Then show the full draft, including Context, in the layout of `references/issue-format.md`, for that route. For the GitHub routes always say exactly: "This issue will be public." For the email route say instead: "This will go by email to the maintainer of this plugin. It is not public." Ask them to confirm or change it. Nothing is sent or filed without their yes. If they change their mind, drop it kindly and send nothing.
 6. **Send it** once they say yes:
-   1. **GitHub tool or `gh`:** create the issue on `tejitpabari99/tejit-np-plugin` with the label `feedback`, and show them the link.
+   1. **GitHub tool or `gh`:** create the issue on `tejitpabari99/sparehand-plugin` with the label `feedback`, and show them the link.
    2. **GitHub link:** give the pre-filled link built as described in `references/issue-format.md`, and tell them to look it over and click **Submit**.
    3. **Email** (to `tejitpabari99@gmail.com`, subject `[Feedback] <short summary>`, same sections as the issue, see `references/issue-format.md`):
       1. If a Gmail tool is available and signed in, ask "Shall I send this email for you?" Send on yes and confirm it went. If the tool can only create drafts, create the draft and tell them to open it and press Send.

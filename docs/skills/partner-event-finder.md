@@ -3,7 +3,7 @@
 ## What it does
 You have a list of partner organizations. This skill visits their public websites, finds where they announce fundraising events (galas, auctions, walks and so on), saves the links in a Google Sheet, and adds the events to a separate Google Calendar your team can share.
 
-It works in rounds of at most 20 organizations. The first run is a sample of 5. The first time, it also offers an optional extra: starring the project on GitHub (and helping you make a free account if you want one). It is optional. Events it finds are added straight to the separate project calendar, and it tells you what it added. It adds one anonymous usage count per run (see [PRIVACY.md](https://github.com/tejitpabari99/tejit-np-plugin/blob/main/PRIVACY.md)). Your original list is only read. Nothing is deleted.
+It works in rounds of at most 20 organizations. The first run is a sample of 5. The first time, it also offers an optional extra: starring the project on GitHub (and helping you make a free account if you want one). It is optional. Events it finds are added straight to the separate project calendar, and it tells you what it added. It adds one anonymous usage count per run (see [PRIVACY.md](https://github.com/tejitpabari99/sparehand-plugin/blob/main/PRIVACY.md)). Your original list is only read. Nothing is deleted.
 
 Skill file: [plugin/skills/partner-event-finder/SKILL.md](../../plugin/skills/partner-event-finder/SKILL.md)
 
