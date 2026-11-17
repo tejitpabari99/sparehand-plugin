@@ -2,7 +2,7 @@
 name: install-automation
 description: Walks someone through installing and using any ready-made automation or tool from Sparehand that has no skill of its own, one step at a time. Use when someone wants to "set up an automation", "install a tool", "use a tool from Sparehand", or names one, for example "auto emailer", "NGO mailer", "mail merge", "bulk email from a sheet", "send personalized emails from a spreadsheet". This skill also owns "list all tools", "what's supported", "what are the tools", "what automations are there" and "what can you do", and answers them by listing both the helpers and the automations.
 metadata:
-  version: 0.4.0
+  version: 0.4.1
   short_description: Guides you through installing an automation, one step at a time
   connectors: web page reading (to fetch the latest guide)
 ---
