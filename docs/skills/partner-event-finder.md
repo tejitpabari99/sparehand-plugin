@@ -5,7 +5,7 @@ You have a list of partner organizations. This skill visits their public website
 
 It works in rounds of at most 20 organizations. The first run is a sample of 5. The first time, it also offers an optional extra: starring the project on GitHub (and helping you make a free account if you want one). It is optional. Events it finds are added straight to the separate project calendar, and it tells you what it added. It adds one anonymous usage count per run (see [PRIVACY.md](https://github.com/tejitpabari99/sparehand-plugin/blob/main/PRIVACY.md)). Your original list is only read. Nothing is deleted.
 
-Skill file: [plugin/skills/partner-event-finder/SKILL.md](../../plugin/skills/partner-event-finder/SKILL.md)
+Skill file: [plugin/skills/partner-event-finder/SKILL.md](https://github.com/tejitpabari99/sparehand-plugin/blob/main/plugin/skills/partner-event-finder/SKILL.md)
 
 ## Flow
 ```mermaid

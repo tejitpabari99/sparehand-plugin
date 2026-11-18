@@ -21,9 +21,9 @@ Small standalone tools, each with an installation guide, kept in [sparehand-auto
 - **Auto Emailer**: Sends personalized emails from a Google Sheet, using a Gmail draft.
 
 ## Learn more
-- [Illustrated guide for nonprofits (PDF)](docs/nonprofit-guide.pdf)
 - [How to install it](docs/install.md)
 - [All documentation](docs/README.md)
+- [Documentation website](https://tejitpabari99.github.io/sparehand-plugin/)
 - [Changelog](plugin/CHANGELOG.md)
 
 License: [MIT](LICENSE) · [Terms and Conditions](https://github.com/tejitpabari99/sparehand-plugin/blob/main/TERMS.md) · [Privacy](https://github.com/tejitpabari99/sparehand-plugin/blob/main/PRIVACY.md)
