@@ -5,7 +5,7 @@ Guides you, one step at a time, through installing any ready-made automation tha
 
 It is the one skill that answers "what can you do?" and "list all tools", by listing both groups: the helpers inside this plugin and the automations you install with a guide. The first automation is the Auto Emailer, which sends personalized emails from a Google Sheet.
 
-Skill file: [plugin/skills/install-automation/SKILL.md](../../plugin/skills/install-automation/SKILL.md)
+Skill file: [plugin/skills/install-automation/SKILL.md](https://github.com/tejitpabari99/sparehand-plugin/blob/main/plugin/skills/install-automation/SKILL.md)
 
 ## Flow
 ```mermaid
