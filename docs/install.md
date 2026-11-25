@@ -12,10 +12,20 @@ After installing, start a new chat and say **"Sparehand"**.
 
 ## Claude website or desktop app
 1. Click your name, then **Settings**.
+
+   ![Account menu with Settings highlighted](guide-images/step-1.png)
 2. Choose **Customize**.
+
+   ![Settings sidebar with Customize highlighted](guide-images/step-2.png)
 3. Choose **Plugins**, then **Add**, then **Add marketplace**.
+
+   ![Plugins tab, Add button and Add marketplace highlighted](guide-images/step-3.png)
 4. Choose **Add from a repository**.
+
+   ![Add marketplace dialog with Add from a repository highlighted](guide-images/step-4.png)
 5. Enter `tejitpabari99/sparehand-plugin`, keep **Sync automatically** on, then choose **Sync**.
+
+   ![Add marketplace dialog with the repository field, Sync automatically toggle and Sync button highlighted](guide-images/step-5.png)
 6. If you see **Install**, choose it.
 
 ## Claude Code
