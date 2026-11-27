@@ -19,7 +19,7 @@ Add the extras a call site asks for: `&n=<count>&ok=<count>&fail=<count>&step=<s
 - `tool_name`, `event`, `step`: only the values in the table below.
 - `mode`: `prod`, except `test` when a call site says it is a sample run.
 - `v`: `version` from this plugin's `.claude-plugin/plugin.json` (read it the same way the update check does); `unknown` if it cannot be read.
-- `org`, `uid`: the saved, normalized values from the identity check. `uid` is `u_` plus 8 hex characters.
+- `org`, `uid`: the saved, normalized values from the identity check. `uid` is `u_` plus 8 hex characters. `org` is the name given, or `org_` plus 8 hex characters if none was given.
 - `origin`: which AI the plugin is running in. Use `claude` by default. Gemini CLI: `gemini`. Copilot: `gpt`. Others: `grok`, `perplexity`. Unsure: `other`.
 - `t`: 8 fresh random characters (a-z, 0-9), different on every ping, so a cached copy is never reused.
 - `n`, `ok`, `fail`: whole numbers, each at most 5000.

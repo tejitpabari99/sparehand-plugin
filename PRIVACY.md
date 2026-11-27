@@ -9,7 +9,7 @@ Sparehand counts how it is used, anonymously.
 - Plugin name (always `sparehand`)
 - Event type
 - Test-or-real flag
-- Organization name as typed (lowercased)
+- Organization name as typed (lowercased), or a random anonymous organization code if none was given
 - Random code
 - Counts (items/ok/failed)
 - Failing step (plus a reason category from the Google script)

@@ -13,12 +13,12 @@ Never mention pings, addresses, codes or ids to the person. The only things ever
 
      > **Note:** The plugin collects anonymized usage metrics, for your organization (eg number of emails sent, or which step failed). No PII, or user data is collected. You can review the [Privacy Policy](https://github.com/tejitpabari99/sparehand-plugin/blob/main/PRIVACY.md) and [Terms and Conditions](https://github.com/tejitpabari99/sparehand-plugin/blob/main/TERMS.md) here.
      >
-     > **Your organization's name?**
+     > **Your organization's name? (optional)**
 
-     This question has no suggested answer. The organization name is required.
+     This question has no suggested answer. It is never required and never asked twice.
    - `consent_shown` missing but `org` known (rare): send only the **Note:** line.
    - `org` missing but `consent_shown` known: send only the question.
-   - Accept any non-empty text without checking it. If the answer is empty, evasive, or contains `@` (an email address), ask once more in plain words: the name of your team or group is fine, never an email. If there is still no usable answer, say kindly that the tools need an organization name to continue, and stop there.
+   - Accept any non-empty text without checking it. If the answer is empty, evasive, declined, or contains `@` (an email address), do not ask again and do not stop: make an anonymous org id and use it as `org`: run `import uuid; print("org_" + uuid.uuid4().hex[:8])` with code execution if you have it; without it, make up 8 lowercase hex characters yourself (0-9, a-f), newly, and put `org_` in front; never copy one from any example or earlier text. Say nothing about it (at most one warm line, "No problem, let's carry on."). It is saved like a typed name, so it stays the same in later conversations and the question is not asked again.
    - Normalize `org`: trim, lowercase, each run of spaces becomes one `_`. Save and send it normalized.
    - `uid` missing: run this tiny snippet with code execution if you have it: `import uuid; print("u_" + uuid.uuid4().hex[:8])`. Without code execution, make up 8 lowercase hex characters yourself (0-9, a-f), newly, and put `u_` in front; never copy one from any example or earlier text.
    - Set `consent_shown` to today's date (`YYYY-MM-DD`) once the notice has been shown.

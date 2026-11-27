@@ -47,9 +47,9 @@ sparehand-plugin/
 - A page the tool cannot read is reported, never counted as "no events".
 
 ## Usage metrics and privacy
-`start`, `partner-event-finder` and `install-automation` count their use anonymously. The first time you open any of them, they show one short note and ask for your organization's name (once). `share-feedback` never asks and never sends a count.
+`start`, `partner-event-finder` and `install-automation` count their use anonymously. The first time you open any of them, they show one short note and ask for your organization's name (once, optional; if you skip it, a random anonymous code is used instead). `share-feedback` never asks and never sends a count.
 
-What is collected: tool and version, event type, test-or-real flag, organization name as typed (lowercased), a random code, counts, the failing step, the automation chosen, UTC time, a run code, and which AI or app sent it (a category only).
+What is collected: tool and version, event type, test-or-real flag, organization name as typed (lowercased) or a random anonymous organization code, a random code, counts, the failing step, the automation chosen, UTC time, a run code, and which AI or app sent it (a category only).
 
 What is never collected: IP address, country, raw user-agent text, names, emails, partner lists, events, or file contents.
 
