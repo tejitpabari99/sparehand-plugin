@@ -6,6 +6,7 @@ Sparehand counts how it is used, anonymously.
 
 ## What is collected
 - Tool and version
+- Plugin name (always `sparehand`)
 - Event type
 - Test-or-real flag
 - Organization name as typed (lowercased)

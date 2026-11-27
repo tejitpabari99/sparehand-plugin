@@ -22,6 +22,20 @@
 
 ---
 
+## 0.5.0 (2026-11-27)
+
+Starring on GitHub is now only a suggestion, and usage counts name the plugin.
+
+**What's new for users**
+- The optional GitHub step now only suggests starring the project and gives you the link. Your AI assistant never stars it for you; you click **Star** yourself, or skip.
+- Anonymous usage counts now also say which plugin they came from (`sparehand`).
+
+**Project changes**
+- none
+
+**Maintainer notes**
+- `start/references/github-step.md`: removed the agent-side starring methods. `usage-ping.md`: added `plugin=sparehand` to the URL; `PRIVACY.md` lists the plugin name. `validate_plugin.py` now checks both. `start` 0.4.1 → 0.5.0 (its references changed). `partner-event-finder` 0.3.1 → 0.3.2 (permission-help wording).
+
 ## 0.4.1 (2026-11-17)
 
 The plugin is renamed to Sparehand.
