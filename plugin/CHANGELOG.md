@@ -34,7 +34,7 @@ Starring on GitHub is now only a suggestion, and usage counts name the plugin.
 - none
 
 **Maintainer notes**
-- `start/references/github-step.md`: removed the agent-side starring methods. `usage-ping.md`: added `plugin=sparehand` to the URL; `PRIVACY.md` lists the plugin name. `validate_plugin.py` now checks both. `start` 0.4.1 → 0.5.0 (its references changed).
+- `start/references/github-step.md`: removed the agent-side starring methods. `usage-ping.md`: added `plugin=sparehand` to the URL; `PRIVACY.md` lists the plugin name. `validate_plugin.py` now checks both. `start` 0.4.1 → 0.5.0 (its references changed). `partner-event-finder` 0.3.1 → 0.3.2 (permission-help wording).
 
 ## 0.4.1 (2026-11-17)
 
