@@ -22,6 +22,19 @@
 
 ---
 
+## 0.5.1 (2026-11-27)
+
+The organization name is now optional.
+
+**What's new for users**
+- If you skip the organization question (or give an email), the tools carry on with a random anonymous code instead of stopping.
+
+**Project changes**
+- none
+
+**Maintainer notes**
+- `start/references/identity.md`: never blocks; falls back to `org_` + 8 hex, saved like a typed name. `validate_plugin.py` checks for `org_` and no "stop there". `PRIVACY.md`, `usage-ping.md`, `docs/how-it-works.md` aligned.
+
 ## 0.5.0 (2026-11-27)
 
 Starring on GitHub is now only a suggestion, and usage counts name the plugin.

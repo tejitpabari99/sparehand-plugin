@@ -254,7 +254,9 @@ def identity_problems(text):
         out.append("missing the made-up '8 lowercase hex' fallback")
     if "usage-ping.md" not in text:
         out.append("must reference usage-ping.md (setup_done ping)")
-    for bad in ("may be listed",):
+    if "org_" not in text:
+        out.append("missing the anonymous org id fallback ('org_')")
+    for bad in ("may be listed", "stop there"):
         if bad in text.lower():
             out.append(f"must not contain {bad!r}")
     return out
