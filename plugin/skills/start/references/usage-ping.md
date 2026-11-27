@@ -10,11 +10,12 @@ A silent, single web request that adds one anonymous count. Call sites say which
 A GET request. Replace each `<...>` and keep every value URL-encoded (a typed `&` or `#` must not add parameters):
 
 ```
-https://ping.tejitpabari.com/ping?tool_type=plugin&tool_name=<tool>&event=<event>&mode=<mode>&v=<version>&org=<org>&uid=<uid>&origin=<origin>&t=<random>
+https://ping.tejitpabari.com/ping?tool_type=plugin&plugin=sparehand&tool_name=<tool>&event=<event>&mode=<mode>&v=<version>&org=<org>&uid=<uid>&origin=<origin>&t=<random>
 ```
 
 Add the extras a call site asks for: `&n=<count>&ok=<count>&fail=<count>&step=<step>&x_run=<run id>&x_automation=<automation name>`.
 
+- `plugin`: always `sparehand` (tells this plugin's pings apart from other plugins').
 - `tool_name`, `event`, `step`: only the values in the table below.
 - `mode`: `prod`, except `test` when a call site says it is a sample run.
 - `v`: `version` from this plugin's `.claude-plugin/plugin.json` (read it the same way the update check does); `unknown` if it cannot be read.

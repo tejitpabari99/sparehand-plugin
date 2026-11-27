@@ -273,6 +273,17 @@ def usage_ping_problems(text):
     for origin in ("claude", "gemini", "gpt"):
         if f"`{origin}`" not in text:
             out.append(f"missing origin value `{origin}`")
+    if "plugin=sparehand" not in text:
+        out.append("URL template must include plugin=sparehand")
+    return out
+
+
+def github_step_problems(text):
+    """Problems in github-step.md text: starring must stay a suggestion only."""
+    out = []
+    for bad in ("gh api -X PUT", "user/starred"):
+        if bad in text:
+            out.append(f"must not star on the person's behalf ({bad!r})")
     return out
 
 
@@ -318,6 +329,12 @@ def check_usage_pings(groups):
         else:
             for p in usage_ping_problems(ping):
                 err(f"usage-ping.md: {p}")
+        gh = _read(REFS / "github-step.md")
+        if gh is None:
+            err("plugin/skills/start/references/github-step.md is missing")
+        else:
+            for p in github_step_problems(gh):
+                err(f"github-step.md: {p}")
     if "identity_entry" in groups:
         _refs(sk / "start" / "SKILL.md", "identity.md")
         _refs(sk / "partner-event-finder" / "SKILL.md", "identity.md")
